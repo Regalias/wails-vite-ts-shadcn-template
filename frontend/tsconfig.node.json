@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "paths": {
+      "@/*": ["./src/*"],
+      "@bindings/*": ["./wailsjs/*"]
+    }
+  },
+  "include": ["vite.config.ts"]
+}

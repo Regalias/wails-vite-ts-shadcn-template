@@ -1,0 +1,6 @@
+# Ignore artifacts:
+build
+coverage
+wailsjs
+src/*.gen.ts
+package-lock.json
