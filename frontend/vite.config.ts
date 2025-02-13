@@ -10,7 +10,7 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
-      "@bindings": path.resolve(__dirname, "./wailsjs/go/application"),
+      "@bindings": path.resolve(__dirname, "./wailsjs/go"),
       "@runtime": path.resolve(__dirname, "./wailsjs/runtime"),
     },
   },

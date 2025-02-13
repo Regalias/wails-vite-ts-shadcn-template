@@ -3,7 +3,7 @@ import { createRootRoute, Outlet } from "@tanstack/react-router";
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/features/navigation/sidebar";
 import { AppTopBar } from "@/features/navigation/topbar";
-import { AwaitReady } from "@bindings/App";
+import { AwaitReady } from "@bindings/application/App";
 import { Box, LoaderPinwheel } from "lucide-react";
 
 export const Route = createRootRoute({

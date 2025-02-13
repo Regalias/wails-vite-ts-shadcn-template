@@ -2,10 +2,17 @@
 
 Application description here.
 
+## Contents
+
+- App initialization load screen with readiness signalling
+- Basic navigation template with top and sidebar
+- File based routing
+- Import aliases for wails generated bindings `@bindings` and runtime `@runtime`
+
 ## Components
 
 - Wails (https://wails.io/)
-- React, TypeScript, Vite
+- React 19, TypeScript 5.x, Vite 6.x
 - eslint rules with prettier
 - Tailwind 4 for styling (https://tailwindcss.com/)
 - shadcn for UI components  (https://ui.shadcn.com/)

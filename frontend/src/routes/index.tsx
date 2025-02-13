@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Greet } from "@bindings/App";
+import { Greet } from "@bindings/application/App";
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 

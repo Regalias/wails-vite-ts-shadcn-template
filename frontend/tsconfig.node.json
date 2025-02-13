@@ -7,7 +7,7 @@
     "strict": true,
     "paths": {
       "@/*": ["./src/*"],
-      "@bindings/*": ["./wailsjs/go/application/*"],
+      "@bindings/*": ["./wailsjs/go/*"],
       "@runtime/*": ["./wailsjs/runtime/*"]
     }
   },
