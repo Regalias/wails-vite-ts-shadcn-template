@@ -4,3 +4,5 @@ coverage
 wailsjs
 src/*.gen.ts
 package-lock.json
+src/components/ui/*
+dist/*
