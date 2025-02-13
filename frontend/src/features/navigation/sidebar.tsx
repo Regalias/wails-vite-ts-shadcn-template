@@ -3,9 +3,9 @@
 import { Bot, Command, Frame, Map, PieChart, Send, Settings2, SquareTerminal } from "lucide-react";
 import * as React from "react";
 
-import { NavMain } from "@/components/navigation/sidebar/main";
-import { NavFooter } from "@/components/navigation/sidebar/footer";
-import { NavUser } from "@/components/navigation/sidebar/user";
+import { NavMain } from "@/features/navigation/sidebar/main";
+import { NavFooter } from "@/features/navigation/sidebar/footer";
+import { NavUser } from "@/features/navigation/sidebar/user";
 import {
   Sidebar,
   SidebarContent,

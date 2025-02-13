@@ -1,4 +1,4 @@
-package main
+package application
 
 import (
 	"context"
@@ -8,17 +8,26 @@ import (
 // App struct
 type App struct {
 	ctx context.Context
+
+	readyCh chan bool
 }
 
 // NewApp creates a new App application struct
-func NewApp() *App {
-	return &App{}
+func New() *App {
+	return &App{
+		readyCh: make(chan bool, 1),
+	}
 }
 
 // startup is called when the app starts. The context is saved
 // so we can call the runtime methods
-func (a *App) startup(ctx context.Context) {
+func (a *App) OnStartup(ctx context.Context) {
 	a.ctx = ctx
+
+	// Do app init logic here
+	// call a.signalFailureAndAbort() if there's a critical failure
+
+	a.signalReady()
 }
 
 // Greet returns a greeting for the given name

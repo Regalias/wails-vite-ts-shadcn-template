@@ -7,7 +7,8 @@
     "strict": true,
     "paths": {
       "@/*": ["./src/*"],
-      "@bindings/*": ["./wailsjs/*"]
+      "@bindings/*": ["./wailsjs/go/application/*"],
+      "@runtime/*": ["./wailsjs/runtime/*"]
     }
   },
   "include": ["vite.config.ts"]
